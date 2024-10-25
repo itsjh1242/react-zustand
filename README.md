@@ -32,7 +32,9 @@ yarn add zustand
 ```
 
 ## Getting Started
+
 To start using Zustand with React, import create from Zustand and define a store.
+
 ```bash
 import create from 'zustand';
 
@@ -47,7 +49,9 @@ export default useStore;
 ```
 
 ## Usage
+
 Once your store is defined, you can use it in any component.
+
 ```bash
 import React from 'react';
 import useStore from './path-to-your-store';
@@ -68,11 +72,13 @@ export default Counter;
 ```
 
 ## API Reference
+
 - create(setupFunction): Creates a Zustand store.
   - setupFunction: A function that defines the initial state and actions for the store.
 - set: A function that allows you to update the state.
 
 ## Contributing
+
 We welcome contributions! If you want to contribute to react-zustand, please follow these steps:
 
 1. Fork this repository.
@@ -82,4 +88,5 @@ We welcome contributions! If you want to contribute to react-zustand, please fol
 5. Open a Pull Request.
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
