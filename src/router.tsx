@@ -1,22 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Counter, Modal, Root, Theme } from "./index";
+import { RootLayout } from "./components/layout/root";
+import { MainPage } from "./view/main/page";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <RootLayout />,
     children: [
       {
-        path: "counter",
-        element: <Counter />,
-      },
-      {
-        path: "theme",
-        element: <Theme />,
-      },
-      {
-        path: "modal",
-        element: <Modal />,
+        element: <MainPage />,
       },
     ],
   },

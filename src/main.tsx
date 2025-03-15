@@ -9,10 +9,3 @@ createRoot(document.getElementById("root")!).render(
     <RouterProvider router={router} />
   </StrictMode>
 );
-
-// Counter
-// Theme
-// Modal
-// Auth
-// E-Commerce (ex. Cart)
-// WebSocket
